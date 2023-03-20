@@ -1,0 +1,54 @@
+2022-05-23 20:55:06.762 +05:30 [INF]  Starting Web Host
+2022-05-23 20:58:56.917 +05:30 [INF]  Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 20:58:57.301 +05:30 [INF]  Saved 3 entities to in-memory store.
+2022-05-23 20:58:57.518 +05:30 [INF]  Application started. Press Ctrl+C to shut down.
+2022-05-23 20:58:57.520 +05:30 [INF]  Hosting environment: Development
+2022-05-23 20:58:57.520 +05:30 [INF]  Content root path: D:\demo\InMemoryDemo\InMemoryDemo
+2022-05-23 20:59:18.789 +05:30 [INF]  Starting Web Host
+2022-05-23 20:59:23.293 +05:30 [INF]  Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 20:59:23.694 +05:30 [INF]  Saved 3 entities to in-memory store.
+2022-05-23 20:59:23.843 +05:30 [INF]  Application started. Press Ctrl+C to shut down.
+2022-05-23 20:59:23.844 +05:30 [INF]  Hosting environment: Development
+2022-05-23 20:59:23.845 +05:30 [INF]  Content root path: D:\demo\InMemoryDemo\InMemoryDemo
+2022-05-23 20:59:36.452 +05:30 [INF] a87aa441-1ee9-470e-b6ad-5d01fcf91886 Request {request.Scheme},{request.Host},{request.Path},{request.QueryString},
+2022-05-23 20:59:36.518 +05:30 [INF] a87aa441-1ee9-470e-b6ad-5d01fcf91886 ActionName:GetEmployee Called
+2022-05-23 20:59:36.600 +05:30 [INF] a87aa441-1ee9-470e-b6ad-5d01fcf91886 Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 20:59:37.048 +05:30 [INF] a87aa441-1ee9-470e-b6ad-5d01fcf91886 ActionResult ["InMemoryDemo.Model.Employee","InMemoryDemo.Model.Employee","InMemoryDemo.Model.Employee"]
+2022-05-23 20:59:37.135 +05:30 [INF] a87aa441-1ee9-470e-b6ad-5d01fcf91886 Response {response.StatusCode}
+2022-05-23 20:59:37.136 +05:30 [INF] a87aa441-1ee9-470e-b6ad-5d01fcf91886 Response 200: [{"id":1,"name":"Nishant","gender":"Male","age":30,"salary":30000},{"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000},{"id":3,"name":"Hiren","gender":"Male","age":31,"salary":40000}]
+2022-05-23 21:01:15.476 +05:30 [INF]  Starting Web Host
+2022-05-23 21:01:19.313 +05:30 [INF]  Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 21:01:19.648 +05:30 [INF]  Saved 3 entities to in-memory store.
+2022-05-23 21:01:19.752 +05:30 [INF]  Application started. Press Ctrl+C to shut down.
+2022-05-23 21:01:19.754 +05:30 [INF]  Hosting environment: Development
+2022-05-23 21:01:19.754 +05:30 [INF]  Content root path: D:\demo\InMemoryDemo\InMemoryDemo
+2022-05-23 21:01:28.487 +05:30 [INF] 99627869-2b4b-472b-89b0-a393b57c59c5 Request {request.Scheme},{request.Host},{request.Path},{request.QueryString},
+2022-05-23 21:01:28.544 +05:30 [INF] 99627869-2b4b-472b-89b0-a393b57c59c5 ActionName:GetEmployee Called
+2022-05-23 21:01:28.612 +05:30 [INF] 99627869-2b4b-472b-89b0-a393b57c59c5 Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 21:01:29.171 +05:30 [INF] 99627869-2b4b-472b-89b0-a393b57c59c5 ActionResult ["InMemoryDemo.Model.Employee","InMemoryDemo.Model.Employee","InMemoryDemo.Model.Employee"]
+2022-05-23 21:01:29.241 +05:30 [INF] 99627869-2b4b-472b-89b0-a393b57c59c5 Response {response.StatusCode}
+2022-05-23 21:01:29.242 +05:30 [INF] 99627869-2b4b-472b-89b0-a393b57c59c5 Response 200: [{"id":1,"name":"Nishant","gender":"Male","age":30,"salary":30000},{"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000},{"id":3,"name":"Hiren","gender":"Male","age":31,"salary":40000}]
+2022-05-23 21:05:11.436 +05:30 [INF]  Starting Web Host
+2022-05-23 21:05:15.421 +05:30 [INF]  Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 21:05:15.790 +05:30 [INF]  Saved 3 entities to in-memory store.
+2022-05-23 21:05:15.921 +05:30 [INF]  Application started. Press Ctrl+C to shut down.
+2022-05-23 21:05:15.922 +05:30 [INF]  Hosting environment: Development
+2022-05-23 21:05:15.922 +05:30 [INF]  Content root path: D:\demo\InMemoryDemo\InMemoryDemo
+2022-05-23 21:05:24.539 +05:30 [INF] 69f117a2-228f-4f78-a11d-70573860855c Request {request.Scheme},{request.Host},{request.Path},{request.QueryString},
+2022-05-23 21:05:24.600 +05:30 [INF] 69f117a2-228f-4f78-a11d-70573860855c ActionName:GetEmployee Called
+2022-05-23 21:05:24.683 +05:30 [INF] 69f117a2-228f-4f78-a11d-70573860855c Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 21:05:25.135 +05:30 [INF] 69f117a2-228f-4f78-a11d-70573860855c ActionResult ["InMemoryDemo.Model.Employee","InMemoryDemo.Model.Employee","InMemoryDemo.Model.Employee"]
+2022-05-23 21:05:25.192 +05:30 [INF] 69f117a2-228f-4f78-a11d-70573860855c Response {response.StatusCode}
+2022-05-23 21:05:25.192 +05:30 [INF] 69f117a2-228f-4f78-a11d-70573860855c Response 200: [{"id":1,"name":"Nishant","gender":"Male","age":30,"salary":30000},{"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000},{"id":3,"name":"Hiren","gender":"Male","age":31,"salary":40000}]
+2022-05-23 21:54:14.839 +05:30 [INF]  Starting Web Host
+2022-05-23 21:54:20.286 +05:30 [INF]  Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 21:54:20.691 +05:30 [INF]  Saved 3 entities to in-memory store.
+2022-05-23 21:54:20.885 +05:30 [INF]  Application started. Press Ctrl+C to shut down.
+2022-05-23 21:54:20.886 +05:30 [INF]  Hosting environment: Development
+2022-05-23 21:54:20.886 +05:30 [INF]  Content root path: D:\demo\InMemoryDemo\InMemoryDemo
+2022-05-23 21:54:34.846 +05:30 [INF] 1c8202b2-8335-4ebd-8ef4-2dd3f6449666 Request {request.Scheme},{request.Host},{request.Path},{request.QueryString},
+2022-05-23 21:54:34.901 +05:30 [INF] 1c8202b2-8335-4ebd-8ef4-2dd3f6449666 ActionName:GetEmployee Called
+2022-05-23 21:54:34.962 +05:30 [INF] 1c8202b2-8335-4ebd-8ef4-2dd3f6449666 Entity Framework Core 5.0.0 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDb 
+2022-05-23 21:54:35.392 +05:30 [INF] 1c8202b2-8335-4ebd-8ef4-2dd3f6449666 ActionResult ["InMemoryDemo.Model.Employee","InMemoryDemo.Model.Employee","InMemoryDemo.Model.Employee"]
+2022-05-23 21:54:35.442 +05:30 [INF] 1c8202b2-8335-4ebd-8ef4-2dd3f6449666 Response {response.StatusCode}
+2022-05-23 21:54:35.442 +05:30 [INF] 1c8202b2-8335-4ebd-8ef4-2dd3f6449666 Response 200: [{"id":1,"name":"Nishant","gender":"Male","age":30,"salary":30000},{"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000},{"id":3,"name":"Hiren","gender":"Male","age":31,"salary":40000}]

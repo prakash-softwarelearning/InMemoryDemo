@@ -1,0 +1,105 @@
+2022-05-26 12:49:06.286 +05:30 [INF]  Starting Web Host
+2022-05-26 12:50:09.415 +05:30 [INF] 7e7c4414-d5e8-4daf-98a8-5aa8341e32f9 HTTP request information:
+	Method: GET
+	Path: /api/Employee
+	QueryString: 
+	Headers: {Accept: text/plain}, {Accept-Encoding: gzip, deflate, br}, {Accept-Language: en-US,en;q=0.9}, {Connection: close}, {Host: localhost:44300}, {Referer: https://localhost:44300/swagger/index.html}, {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36}, {sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"}, {sec-ch-ua-mobile: ?0}, {sec-ch-ua-platform: "Windows"}, {sec-fetch-site: same-origin}, {sec-fetch-mode: cors}, {sec-fetch-dest: empty}
+	Schema: https
+	Host: localhost:44300
+	Body: 
+2022-05-26 12:50:09.888 +05:30 [INF] 7e7c4414-d5e8-4daf-98a8-5aa8341e32f9 HTTP request information:
+	StatusCode: 200
+	ContentType: application/json; charset=utf-8
+	Headers: {Content-Type: application/json; charset=utf-8}
+	Body: [{"id":1,"name":"Nishant","gender":"Male","age":30,"salary":30000},{"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000},{"id":3,"name":"Hiren","gender":"Male","age":31,"salary":40000}]
+2022-05-26 12:52:02.219 +05:30 [INF] f9f419d4-d760-45a5-bec6-880375554cb4 HTTP request information:
+	Method: POST
+	Path: /api/Employee
+	QueryString: 
+	Headers: {Accept: */*}, {Accept-Encoding: gzip, deflate, br}, {Accept-Language: en-US,en;q=0.9}, {Connection: close}, {Content-Length: 63}, {Content-Type: application/json}, {Host: localhost:44300}, {Referer: https://localhost:44300/swagger/index.html}, {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36}, {sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"}, {sec-ch-ua-mobile: ?0}, {sec-ch-ua-platform: "Windows"}, {origin: https://localhost:44300}, {sec-fetch-site: same-origin}, {sec-fetch-mode: cors}, {sec-fetch-dest: empty}
+	Schema: https
+	Host: localhost:44300
+	Body: {"id":4,"name":"Mehul","gender":"Male","age":30,"salary":10000}
+2022-05-26 12:52:02.355 +05:30 [INF] f9f419d4-d760-45a5-bec6-880375554cb4 HTTP request information:
+	StatusCode: 201
+	ContentType: application/json; charset=utf-8
+	Headers: {Location: api/employee/4}, {Content-Type: application/json; charset=utf-8}
+	Body: {"id":4,"name":"Mehul","gender":"Male","age":30,"salary":10000}
+2022-05-26 12:52:10.023 +05:30 [INF] 9d8f5299-0bba-4424-a408-fa02f1801d4d HTTP request information:
+	Method: GET
+	Path: /api/Employee
+	QueryString: 
+	Headers: {Accept: text/plain}, {Accept-Encoding: gzip, deflate, br}, {Accept-Language: en-US,en;q=0.9}, {Connection: close}, {Host: localhost:44300}, {Referer: https://localhost:44300/swagger/index.html}, {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36}, {sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"}, {sec-ch-ua-mobile: ?0}, {sec-ch-ua-platform: "Windows"}, {sec-fetch-site: same-origin}, {sec-fetch-mode: cors}, {sec-fetch-dest: empty}
+	Schema: https
+	Host: localhost:44300
+	Body: 
+2022-05-26 12:52:10.026 +05:30 [INF] 9d8f5299-0bba-4424-a408-fa02f1801d4d HTTP request information:
+	StatusCode: 200
+	ContentType: application/json; charset=utf-8
+	Headers: {Content-Type: application/json; charset=utf-8}
+	Body: [{"id":1,"name":"Nishant","gender":"Male","age":30,"salary":30000},{"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000},{"id":3,"name":"Hiren","gender":"Male","age":31,"salary":40000},{"id":4,"name":"Mehul","gender":"Male","age":30,"salary":10000}]
+2022-05-26 12:52:41.252 +05:30 [INF] 3f19299e-9f85-4950-a259-4d760afcb81c HTTP request information:
+	Method: GET
+	Path: /api/Employee/2
+	QueryString: 
+	Headers: {Accept: text/plain}, {Accept-Encoding: gzip, deflate, br}, {Accept-Language: en-US,en;q=0.9}, {Connection: close}, {Host: localhost:44300}, {Referer: https://localhost:44300/swagger/index.html}, {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36}, {sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"}, {sec-ch-ua-mobile: ?0}, {sec-ch-ua-platform: "Windows"}, {sec-fetch-site: same-origin}, {sec-fetch-mode: cors}, {sec-fetch-dest: empty}
+	Schema: https
+	Host: localhost:44300
+	Body: 
+2022-05-26 12:52:41.414 +05:30 [INF] 3f19299e-9f85-4950-a259-4d760afcb81c HTTP request information:
+	StatusCode: 200
+	ContentType: application/json; charset=utf-8
+	Headers: {Content-Type: application/json; charset=utf-8}
+	Body: {"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000}
+2022-05-26 12:52:56.740 +05:30 [INF] 860167b3-a3ac-4207-a52d-3759c41d576a HTTP request information:
+	Method: DELETE
+	Path: /api/Employee/3
+	QueryString: 
+	Headers: {Accept: */*}, {Accept-Encoding: gzip, deflate, br}, {Accept-Language: en-US,en;q=0.9}, {Connection: close}, {Host: localhost:44300}, {Referer: https://localhost:44300/swagger/index.html}, {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36}, {sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"}, {sec-ch-ua-mobile: ?0}, {sec-ch-ua-platform: "Windows"}, {origin: https://localhost:44300}, {sec-fetch-site: same-origin}, {sec-fetch-mode: cors}, {sec-fetch-dest: empty}
+	Schema: https
+	Host: localhost:44300
+	Body: 
+2022-05-26 12:52:56.790 +05:30 [INF] 860167b3-a3ac-4207-a52d-3759c41d576a HTTP request information:
+	StatusCode: 200
+	ContentType: text/plain; charset=utf-8
+	Headers: {Content-Type: text/plain; charset=utf-8}
+	Body: Employee with the Id 3 deleted successfully
+2022-05-26 12:53:04.989 +05:30 [INF] 86c2f82c-9fca-439b-85fc-c827e1263b88 HTTP request information:
+	Method: GET
+	Path: /api/Employee
+	QueryString: 
+	Headers: {Accept: text/plain}, {Accept-Encoding: gzip, deflate, br}, {Accept-Language: en-US,en;q=0.9}, {Connection: close}, {Host: localhost:44300}, {Referer: https://localhost:44300/swagger/index.html}, {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36}, {sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"}, {sec-ch-ua-mobile: ?0}, {sec-ch-ua-platform: "Windows"}, {sec-fetch-site: same-origin}, {sec-fetch-mode: cors}, {sec-fetch-dest: empty}
+	Schema: https
+	Host: localhost:44300
+	Body: 
+2022-05-26 12:53:04.991 +05:30 [INF] 86c2f82c-9fca-439b-85fc-c827e1263b88 HTTP request information:
+	StatusCode: 200
+	ContentType: application/json; charset=utf-8
+	Headers: {Content-Type: application/json; charset=utf-8}
+	Body: [{"id":1,"name":"Nishant","gender":"Male","age":30,"salary":30000},{"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000},{"id":4,"name":"Mehul","gender":"Male","age":30,"salary":10000}]
+2022-05-26 12:54:11.527 +05:30 [INF] e5a629c0-cc20-4872-b5ca-27f9976a00cc HTTP request information:
+	Method: PUT
+	Path: /api/Employee/4
+	QueryString: 
+	Headers: {Accept: */*}, {Accept-Encoding: gzip, deflate, br}, {Accept-Language: en-US,en;q=0.9}, {Connection: close}, {Content-Length: 71}, {Content-Type: application/json}, {Host: localhost:44300}, {Referer: https://localhost:44300/swagger/index.html}, {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36}, {sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"}, {sec-ch-ua-mobile: ?0}, {sec-ch-ua-platform: "Windows"}, {origin: https://localhost:44300}, {sec-fetch-site: same-origin}, {sec-fetch-mode: cors}, {sec-fetch-dest: empty}
+	Schema: https
+	Host: localhost:44300
+	Body: {"id":4,"name":"mehul chauhan","gender":"Male","age":30,"salary":10000}
+2022-05-26 12:54:11.554 +05:30 [INF] e5a629c0-cc20-4872-b5ca-27f9976a00cc HTTP request information:
+	StatusCode: 200
+	ContentType: text/plain; charset=utf-8
+	Headers: {Content-Type: text/plain; charset=utf-8}
+	Body: Employee with the id 4 updated successfully
+2022-05-26 12:54:20.475 +05:30 [INF] af5f0b36-03ae-4f38-b30a-454ed5c31eeb HTTP request information:
+	Method: GET
+	Path: /api/Employee
+	QueryString: 
+	Headers: {Accept: text/plain}, {Accept-Encoding: gzip, deflate, br}, {Accept-Language: en-US,en;q=0.9}, {Connection: close}, {Host: localhost:44300}, {Referer: https://localhost:44300/swagger/index.html}, {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36}, {sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"}, {sec-ch-ua-mobile: ?0}, {sec-ch-ua-platform: "Windows"}, {sec-fetch-site: same-origin}, {sec-fetch-mode: cors}, {sec-fetch-dest: empty}
+	Schema: https
+	Host: localhost:44300
+	Body: 
+2022-05-26 12:54:20.478 +05:30 [INF] af5f0b36-03ae-4f38-b30a-454ed5c31eeb HTTP request information:
+	StatusCode: 200
+	ContentType: application/json; charset=utf-8
+	Headers: {Content-Type: application/json; charset=utf-8}
+	Body: [{"id":1,"name":"Nishant","gender":"Male","age":30,"salary":30000},{"id":2,"name":"Prakash","gender":"Male","age":32,"salary":20000},{"id":4,"name":"mehul chauhan","gender":"Male","age":30,"salary":10000}]
